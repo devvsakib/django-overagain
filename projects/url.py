@@ -4,5 +4,5 @@ from . import views
 
 urlpatterns = [
     path("", views.projects),
-    path("dynamic/<str:test>", views.dynamic),
+    path("project", views.project),
 ]
